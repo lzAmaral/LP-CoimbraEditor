@@ -1,0 +1,15 @@
+:root{
+  /* Paleta 1 — Conversão segura */
+  --color-primary: #2A6DF4;        /* azul primário (UI) */
+  --color-primary-600: #1357D8;    /* variação para hover/outline */
+  --color-bg: #FFFFFF;             /* fundo */
+  --color-surface: #F6F8FA;        /* superfícies secundárias */
+  --text-900: #0B1A2B;             /* texto principal */
+  --text-600: #556678;             /* texto secundário */
+  --color-cta: #FF6A00;            /* CTA laranja (chamativo) */
+  --color-success: #2ECC71;
+  --color-danger: #E74C3C;
+  --shadow-1: 0 6px 18px rgba(11,26,43,0.08);
+  --radius-md: 8px;
+  --transition-fast: 150ms ease;
+}

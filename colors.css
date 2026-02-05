@@ -1,0 +1,45 @@
+:root{
+  /* troque os valores abaixo pela paleta escolhida */
+  --color-primary: #2A6DF4;
+  --color-primary-600: #1357D8;
+  --color-bg: #FFFFFF;
+  --text-900: #0B1A2B;
+  --text-600: #556678;
+  --color-cta: #FF6A00;
+  --color-success: #2ECC71;
+  --color-danger: #E74C3C;
+  --radius: 8px;
+  --transition: 150ms ease;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--text-900);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Botão CTA primário */
+.btn-cta {
+  background: var(--color-cta);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Estados */
+.btn-cta:hover { transform: translateY(-2px); }
+.btn-cta:active { transform: translateY(0); }
+.btn-cta:focus { outline: 3px solid rgba(255,106,0,0.18); outline-offset: 2px; }
+
+/* Versão desabilitada */
+.btn-cta[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}

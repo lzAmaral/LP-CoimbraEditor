@@ -1,0 +1,32 @@
+/* Botões — adapte import para o seu build (SCSS / CSS) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background-color var(--transition-fast);
+  border: none;
+}
+
+/* CTA primário — usar só para ação principal */
+.btn-primary {
+  background-color: var(--color-cta);
+  color: #fff;
+  box-shadow: var(--shadow-1);
+}
+
+/* Hover / Focus / Active */
+.btn-primary:hover { transform: translateY(-2px); background-color: color-mix(in srgb, var(--color-cta) 85%, black 15%); }
+.btn-primary:active { transform: translateY(0); }
+.btn-primary:focus { outline: 3px solid rgba(255,106,0,0.18); outline-offset: 2px; }
+
+/* Versão desabilitada */
+.btn-primary[disabled], .btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
