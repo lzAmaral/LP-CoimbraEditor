@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio | Editor de Vídeos</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #86c9ff;
+      color: hsl(198, 100%, 50%);
+    }
+  </style>
+</head>
+
+<body class="font-sans">
+
+<!-- ================= HERO ================= -->
+<section class="relative min-h-screen flex items-center px-6"
+  style="background: linear-gradient(135deg, #0F4D81 0%, #0B3A63 45%, #F0EEE9 130%);">
+
+  <div class="absolute inset-0"
+    style="background: radial-gradient(circle at 30% 30%, rgba(15,77,129,0.45), transparent 60%);">
+  </div>
+
+  <div class="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+    <div>
+      <h1 class="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
+        Edição estratégica<br>
+        para <span class="text-white">criadores e marcas</span>
+      </h1>
+
+      <p class="mt-6 text-lg text-[#F0EEE9]/90 max-w-xl">
+        Transformo vídeos em conteúdos que prendem atenção,
+        fortalecem autoridade e convertem.
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row gap-4">
+        <a href="#contato"
+          class="px-8 py-4 rounded-full bg-[#F0EEE9] text-[#0F4D81] font-semibold text-lg hover:opacity-90 transition">
+          Vamos conversar
+        </a>
+
+        <a href="#servicos"
+          class="px-8 py-4 rounded-full border border-[#F0EEE9]/60 hover:bg-white/10 transition">
+          Conhecer serviços
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="relative">
+        <div class="absolute -inset-4 rounded-full blur-2xl bg-[#0F4D81]/60"></div>
+        <img src= "assets/images/image (2).png"
+          class="relative w-80 h-80 rounded-full object-cover border border-[#F0EEE9]/40"
+          alt="Foto do editor">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PORTFÓLIO ================= -->
+<section id="portfolio" class="py-24 px-6 bg-[#0F4D81]">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12">
+      Projetos Recentes
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- VIDEO 1 -->
+      <div class="aspect-video rounded-xl overflow-hidden shadow-xl">
+        <iframe
+          src="https://player.vimeo.com/video/1156723483?h=0&autoplay=0&loop=1&muted=1"
+          class="w-full h-full"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <!-- VIDEO 2 (PLACEHOLDER – pode trocar depois) -->
+      <div class="aspect-video rounded-xl overflow-hidden shadow-xl bg-black/30 flex items-center justify-center">
+        <iframe src="https://player.vimeo.com/video/1156723242" class="w-full h-full" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= BENEFÍCIOS ================= -->
+<section class="py-24 px-6 bg-[#F0EEE9] text-[#0F4D81]">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- TÍTULO -->
+    <h2 class="text-3xl md:text-4xl font-bold text-center max-w-4xl mx-auto mb-20">
+      Nós cuidamos da edição enquanto você foca no que realmente importa:
+      <br class="hidden md:block">
+      <span class="text-[#0F4D81]">criar conteúdo e crescer seu negócio</span>
+    </h2>
+
+    <!-- GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+      <!-- ITEM 1 -->
+      <div class="flex items-center gap-5 bg-white rounded-2xl p-6 shadow-sm">
+        <div class="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-400">
+          <i data-lucide="film" class="w-7 h-7 text-white"></i>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">
+            Edição profissional:
+          </h3>
+          <p class="text-[#0F4D81]/80">
+            cortes, transições, efeitos e trilha sonora
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="flex items-center gap-5 bg-white rounded-2xl p-6 shadow-sm">
+        <div class="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-400">
+          <i data-lucide="user" class="w-7 h-7 text-white"></i>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">
+            Personalização completa:
+          </h3>
+          <p class="text-[#0F4D81]/80">
+            seu estilo, sua identidade visual
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="flex items-center gap-5 bg-white rounded-2xl p-6 shadow-sm">
+        <div class="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-400">
+          <i data-lucide="clock" class="w-7 h-7 text-white"></i>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">
+            Entrega rápida:
+          </h3>
+          <p class="text-[#0F4D81]/80">
+            economize horas de trabalho com vídeos prontos para publicar
+          </p>
+        </div>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="flex items-center gap-5 bg-white rounded-2xl p-6 shadow-sm">
+        <div class="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-400">
+          <i data-lucide="smartphone" class="w-7 h-7 text-white"></i>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">
+            Conteúdo otimizado:
+          </h3>
+          <p class="text-[#0F4D81]/80">
+            YouTube, Instagram, TikTok e Reels
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="py-24 px-6 bg-[#F0EEE9] text-[#0F4D81]">
+  <div class="max-w-6xl mx-auto text-center">
+
+    <h2 class="text-3xl md:text-4xl font-bold mb-16">
+      Como funciona o meu serviço de edição de vídeos
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- CARD 1 -->
+      <div class="bg-[#0F4D81] text-[#F0EEE9] p-10 rounded-3xl text-center space-y-4">
+        <i data-lucide="video" class="w-12 h-12 mx-auto"></i>
+        <h3 class="text-xl font-semibold">Você grava os vídeos</h3>
+        <p class="text-[#F0EEE9]/80">
+          Envie o material bruto sem complicação.
+        </p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="bg-[#0F4D81] text-[#F0EEE9] p-10 rounded-3xl text-center space-y-4">
+        <i data-lucide="scissors" class="w-12 h-12 mx-auto"></i>
+        <h3 class="text-xl font-semibold">Eu edito com estratégia</h3>
+        <p class="text-[#F0EEE9]/80">
+          Conteúdo pensado para atrair, engajar e vender.
+        </p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="bg-[#0F4D81] text-[#F0EEE9] p-10 rounded-3xl text-center space-y-4">
+        <i data-lucide="play-square" class="w-12 h-12 mx-auto"></i>
+        <h3 class="text-xl font-semibold">Você recebe pronto</h3>
+        <p class="text-[#F0EEE9]/80">
+          Vídeos finalizados no seu estilo, prontos para postar.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="mt-16">
+      <a href="#contato"
+        class="inline-flex items-center gap-2 px-10 py-4 bg-black text-white rounded-full font-semibold hover:opacity-90 transition">
+        Quero meus vídeos editados agora
+        <span>→</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section id="contato" class="py-24 px-6 bg-[#0F4D81] text-center">
+  <h2 class="text-3xl md:text-4xl font-bold mb-6">
+    Vamos conversar?
+  </h2>
+
+  <p class="text-[#F0EEE9]/80 mb-10">
+    Me chama no WhatsApp ou Instagram e começamos hoje.
+  </p>
+
+  <a href="#"
+    class="px-10 py-4 rounded-full bg-[#F0EEE9] text-[#0F4D81] font-semibold text-lg hover:opacity-90 transition">
+    Entrar em contato
+  </a>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section class="py-24 px-6 bg-[#F0EEE9] text-[#0F4D81]">
+  <div class="max-w-7xl mx-auto text-center">
+
+    <!-- TÍTULO -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">
+      O que meus clientes dizem
+    </h2>
+
+    <p class="text-[#0F4D81]/80 max-w-2xl mx-auto mb-2">
+      Depoimentos reais de quem já teve seus vídeos transformados.
+    </p>
+
+    <p class="font-medium mb-16">
+      Mais de <strong>100 criadores</strong> atendidos
+    </p>
+
+    <!-- GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-end">
+
+      <!-- CARD ESQUERDO -->
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-left">
+        <span class="text-4xl font-bold block mb-4">“</span>
+        <p class="text-[#0F4D81]/80 mb-6">
+          Texto do depoimento aqui. Conte como o serviço ajudou,
+          melhorou resultados e facilitou a rotina.
+        </p>
+
+        <div class="flex items-center gap-3">
+          <img
+            src="https://via.placeholder.com/40"
+            class="w-10 h-10 rounded-full object-cover"
+            alt="Cliente">
+          <span class="font-semibold">Rapha</span>
+        </div>
+      </div>
+
+      <!-- CARD DO MEIO (PRINT) -->
+      <div class="bg-white rounded-2xl p-6 shadow-md flex flex-col items-center">
+        <span class="text-4xl font-bold mb-4">“</span>
+
+        <!-- PRINT PLACEHOLDER -->
+        <div class="w-full aspect-square bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden">
+          <!-- TROQUE O SRC PELO PRINT REAL -->
+          <img
+            src="https://via.placeholder.com/400x400"
+            alt="Print do depoimento"
+            class="w-full h-full object-cover">
+        </div>
+
+        <div class="flex items-center gap-3 mt-6">
+          <img
+            src="https://via.placeholder.com/40"
+            class="w-10 h-10 rounded-full object-cover"
+            alt="Cliente">
+          <span class="font-semibold">Rapha</span>
+        </div>
+      </div>
+
+      <!-- CARD DIREITO -->
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-left">
+        <span class="text-4xl font-bold block mb-4">“</span>
+        <p class="text-[#0F4D81]/80 mb-6">
+          Outro depoimento aqui. Pode falar de profissionalismo,
+          entrega rápida e qualidade dos vídeos.
+        </p>
+
+        <div class="flex items-center gap-3">
+          <img
+            src="https://via.placeholder.com/40"
+            class="w-10 h-10 rounded-full object-cover"
+            alt="Cliente">
+          <span class="font-semibold">Rapha</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-16">
+      <a href="#contato"
+        class="inline-flex items-center gap-2 px-10 py-4 bg-black text-white rounded-full font-semibold hover:opacity-90 transition">
+        Quero meus vídeos editados agora
+        <span>→</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Lucide Init -->
+<script>
+  lucide.createIcons();
+</script>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-[#0F4D81] text-[#F0EEE9] pt-16">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- GRID PRINCIPAL -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12 border-b border-white/20">
+
+      <!-- BRAND -->
+      <div>
+        <h3 class="text-2xl font-bold mb-4">
+          Editor de Vídeos
+        </h3>
+        <p class="text-[#F0EEE9]/80 max-w-sm">
+          Edição estratégica para criadores e marcas que querem
+          crescer com conteúdo profissional e de alta conversão.
+        </p>
+      </div>
+
+      <!-- LINKS -->
+      <div>
+        <h4 class="font-semibold mb-4">Navegação</h4>
+        <ul class="space-y-3 text-[#F0EEE9]/80">
+          <li><a href="#portfolio" class="hover:underline">Portfólio</a></li>
+          <li><a href="#servicos" class="hover:underline">Serviços</a></li>
+          <li><a href="#depoimentos" class="hover:underline">Depoimentos</a></li>
+          <li><a href="#contato" class="hover:underline">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- CTA / CONTATO -->
+      <div>
+        <h4 class="font-semibold mb-4">Vamos conversar</h4>
+        <p class="text-[#F0EEE9]/80 mb-6">
+          Pronto para elevar o nível dos seus vídeos?
+        </p>
+        <a href="#contato"
+          class="inline-block px-6 py-3 bg-[#F0EEE9] text-[#0F4D81] rounded-full font-semibold hover:opacity-90 transition">
+          Falar comigo
+        </a>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="flex flex-col md:flex-row items-center justify-between py-6 text-sm text-[#F0EEE9]/70">
+      <span>
+        © 2026 • Todos os direitos reservados
+      </span>
+
+      <span class="mt-4 md:mt-0">
+        Site desenvolvido por <strong class="text-[#F0EEE9]">Luiz Amaral</strong>
+      </span>
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
