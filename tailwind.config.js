@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#0F4D81",     // Azul principal
-        secondary: "#ffffff",   // Azul claro
+        secondary: "#5ba5ff",   // Azul claro
         background: "#F0EEE9",  // Fundo off-white
         text: "#1F2933",        // Texto principal
         muted: "#6B7280",       // Texto secundário
